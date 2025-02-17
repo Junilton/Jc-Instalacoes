@@ -538,6 +538,21 @@ footer {
   font-size: 0.9rem;
 }
 
+@media (max-width: 992px) {
+  .contato-principal .container {
+    flex-direction: column;
+  }
+  .contato-descricao,
+  .contato-form {
+    flex: 1 1 100%;
+    margin-bottom: 30px;
+  }
+  .contato-cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
 /* ============================ */
 /*       Responsividade         */
 /* ============================ */
