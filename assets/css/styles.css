@@ -45,6 +45,7 @@ img {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* ============================ */
@@ -54,7 +55,7 @@ header {
   background: var(--cor-header);
   padding: 15px 0;
   position: fixed;
-  top: 0; /* Fica fixo no topo */
+  top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
@@ -74,6 +75,43 @@ header .logo {
   transition: var(--transicao);
 }
 
+/* Botão de Menu (Hamburger) */
+.menu-toggle {
+  display: none; /* Oculto em telas maiores */
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  position: relative;
+  transition: var(--transicao);
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  transition: var(--transicao);
+}
+
+.hamburger::before {
+  top: -8px;
+}
+
+.hamburger::after {
+  top: 8px;
+}
+
+/* Menu de Navegação */
 header nav ul {
   list-style: none;
   display: flex;
@@ -501,33 +539,26 @@ footer {
 }
 
 /* ============================ */
-/*         Responsividade       */
+/*       Responsividade         */
 /* ============================ */
-@media (max-width: 992px) {
-  .contato-principal .container {
-    flex-direction: column;
-  }
-  .contato-descricao,
-  .contato-form {
-    flex: 1 1 100%;
-    margin-bottom: 30px;
-  }
-  .contato-cards {
-    flex-direction: column;
-    gap: 20px;
-  }
-}
-
 @media (max-width: 768px) {
-  header .container {
-    flex-direction: column;
-    align-items: center;
+  /* Exibir o botão de menu */
+  .menu-toggle {
+    display: block;
   }
+  /* Esconder o menu de navegação padrão */
   header nav ul {
+    display: none;
     flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+  /* Exibir o menu quando ativo */
+  header nav ul.active {
+    display: flex;
   }
   header nav ul li {
-    margin: 8px 0;
+    margin: 10px 0;
   }
   .servico-item,
   .portfolio-item {

@@ -25,17 +25,23 @@
     <div class="container">
       <img src="assets/images/logo.png" alt="Jc Instalações" class="logo" />
       <nav>
-        <ul>
-          <li><a href="index.html" class="active">Início</a></li>
+        <!-- Botão de menu para dispositivos móveis -->
+        <button class="menu-toggle" id="menuToggle">
+          <span class="hamburger"></span>
+        </button>
+        <!-- Menu de navegação -->
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html">Início</a></li>
           <li><a href="sobre.html">Sobre</a></li>
           <li><a href="servicos.html">Serviços</a></li>
-          <li><a href="portfolio.html">Portfólio</a></li>
           <li><a href="blog.html">Blog</a></li>
-          <li><a href="contato.html">Contato</a></li>
+          <li><a href="portfolio.html">Portfólio</a></li>
+          <li><a href="contato.html" class="active">Contato</a></li>
         </ul>
       </nav>
     </div>
   </header>
+
 
   <!-- Banner Principal -->
   <section class="banner-principal">
@@ -142,6 +148,8 @@
   <script src="assets/js/scripts.js"></script>
   <script src="assets/js/blog.js"></script>
   <script src="assets/js/post.js"></script>
+  <script src="assets/js/menu.js"></script>
+
 </body>
 
 </html>
