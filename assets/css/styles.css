@@ -111,6 +111,11 @@ header .logo {
   top: 8px;
 }
 
+.active {
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+}
+
 /* Menu de Navegação */
 header nav ul {
   list-style: none;
