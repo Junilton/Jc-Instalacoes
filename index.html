@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- GOOGLE FONTES -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <!-- BOOTSTRAP ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <title>Jc Instalações - Soluções em Instalações e Manutenções Elétricas</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <style>
+    /* Caso seja necessário complementar o CSS sem alterar o estilo base */
+    .conteudos-grid,
+    .portfolio-grid,
+    .servicos-grid {
+      display: grid;
+      grid-gap: 1rem;
+    }
+
+    /* Exemplo: grid de 4 colunas em telas maiores */
+    @media (min-width: 768px) {
+
+      .conteudos-grid,
+      .portfolio-grid,
+      .servicos-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    @media (max-width: 767px) {
+
+      .conteudos-grid,
+      .portfolio-grid,
+      .servicos-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <div class="container">
+      <img src="assets/images/logo.png" alt="Jc Instalações" class="logo">
+      <nav>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir Menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html" class="active">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="portfolio.html">Portfólio</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Banner Principal -->
+  <section class="banner-principal">
+    <img src="https://via.placeholder.com/1920x600?text=Banner+Principal" alt="Banner Principal">
+    <div class="banner-overlay">
+      <h1>Bem-vindo à Jc Instalações</h1>
+      <p>Soluções completas em instalações e manutenções elétricas para sua residência, empresa ou indústria.</p>
+      <a href="contato.html" class="btn">Solicite um Orçamento</a>
+    </div>
+  </section>
+
+  <!-- Serviços em Destaque -->
+  <section class="servicos">
+    <div class="container">
+      <h2>Nossos Serviços</h2>
+      <div class="servicos-grid">
+        <!-- Exemplo de 8 itens para chamar atenção; a página completa de serviços possui mais itens -->
+        <div class="servico-item">
+          <img src="https://via.placeholder.com/400x300?text=Serviço+1" alt="Instalação Residencial">
+          <h3>Instalação Residencial</h3>
+          <p>Instalações elétricas seguras e modernas para sua residência.</p>
+        </div>
+        <div class="servico-item">
+          <img src="https://via.placeholder.com/400x300?text=Serviço+2" alt="Manutenção Predial">
+          <h3>Manutenção Predial</h3>
+          <p>Serviços de manutenção preventiva e corretiva para prédios e condomínios.</p>
+        </div>
+        <div class="servico-item">
+          <img src="https://via.placeholder.com/400x300?text=Serviço+3" alt="Projetos Industriais">
+          <h3>Projetos Industriais</h3>
+          <p>Soluções personalizadas para grandes demandas industriais.</p>
+        </div>
+        <div class="servico-item">
+          <img src="https://via.placeholder.com/400x300?text=Serviço+4" alt="Automação Residencial">
+          <h3>Automação Residencial</h3>
+          <p>Sistemas inteligentes que otimizam o uso de energia na sua casa.</p>
+        </div>
+        <div class="servico-item">
+          <img src="https://via.placeholder.com/400x300?text=Serviço+5" alt="Energia Solar">
+          <h3>Energia Solar</h3>
+          <p>Consultoria e instalação para redução de custos com energia.</p>
+        </div>
+        <div class="servico-item">
+          <img src="https://via.placeholder.com/400x300?text=Serviço+6" alt="Reforma Elétrica">
+          <h3>Reforma Elétrica</h3>
+          <p>Atualize sua instalação para seguir as normas de segurança atuais.</p>
+        </div>
+        <div class="servico-item">
+          <img src="https://via.placeholder.com/400x300?text=Serviço+7" alt="Iluminação LED">
+          <h3>Iluminação LED</h3>
+          <p>Projetos que unem economia e alto desempenho luminoso.</p>
+        </div>
+        <div class="servico-item">
+          <img src="https://via.placeholder.com/400x300?text=Serviço+8" alt="Consultoria Técnica">
+          <h3>Consultoria Técnica</h3>
+          <p>Orientação especializada para a otimização dos sistemas elétricos.</p>
+        </div>
+      </div>
+      <a href="servicos.html" class="btn">Ver Todos os Serviços</a>
+    </div>
+  </section>
+
+  <!-- Conteúdos em Destaque (Diversos assuntos) -->
+  <section class="conteudos-destaque">
+    <div class="container">
+      <h2>Conteúdos em Destaque</h2>
+      <div class="conteudos-grid">
+        <!-- Exemplo de 12 itens – você pode aumentar a quantidade conforme necessário -->
+        <div class="conteudo-item">
+          <img src="https://via.placeholder.com/400x300?text=Conteúdo+1" alt="Conteúdo 1">
+          <h3>Conteúdo 1</h3>
+          <p>Dicas de economia de energia para residências modernas.</p>
+        </div>
+        <div class="conteudo-item">
+          <img src="https://via.placeholder.com/400x300?text=Conteúdo+2" alt="Conteúdo 2">
+          <h3>Conteúdo 2</h3>
+          <p>Tecnologias emergentes no setor elétrico.</p>
+        </div>
+        <div class="conteudo-item">
+          <img src="https://via.placeholder.com/400x300?text=Conteúdo+3" alt="Conteúdo 3">
+          <h3>Conteúdo 3</h3>
+          <p>Soluções sustentáveis para ambientes corporativos.</p>
+        </div>
+        <div class="conteudo-item">
+          <img src="https://via.placeholder.com/400x300?text=Conteúdo+4" alt="Conteúdo 4">
+          <h3>Conteúdo 4</h3>
+          <p>Inovações em automação residencial.</p>
+        </div>
+        <div class="conteudo-item">
+          <img src="https://via.placeholder.com/400x300?text=Conteúdo+5" alt="Conteúdo 5">
+          <h3>Conteúdo 5</h3>
+          <p>Casos de sucesso em instalações industriais.</p>
+        </div>
+        <div class="conteudo-item">
+          <img src="https://via.placeholder.com/400x300?text=Conteúdo+6" alt="Conteúdo 6">
+          <h3>Conteúdo 6</h3>
+          <p>Dicas de manutenção preventiva.</p>
+        </div>
+        <div class="conteudo-item">
+          <img src="https://via.placeholder.com/400x300?text=Conteúdo+7" alt="Conteúdo 7">
+          <h3>Conteúdo 7</h3>
+          <p>Tendências do setor elétrico em 2025.</p>
+        </div>
+        <div class="conteudo-item">
+          <img src="https://via.placeholder.com/400x300?text=Conteúdo+8" alt="Conteúdo 8">
+          <h3>Conteúdo 8</h3>
+          <p>Como reduzir o consumo de energia na sua empresa.</p>
+        </div>
+        <div class="conteudo-item">
+          <img src="https://via.placeholder.com/400x300?text=Conteúdo+9" alt="Conteúdo 9">
+          <h3>Conteúdo 9</h3>
+          <p>Aplicativos que ajudam no monitoramento da energia.</p>
+        </div>
+        <div class="conteudo-item">
+          <img src="https://via.placeholder.com/400x300?text=Conteúdo+10" alt="Conteúdo 10">
+          <h3>Conteúdo 10</h3>
+          <p>Dicas para manter sua rede elétrica em dia.</p>
+        </div>
+        <div class="conteudo-item">
+          <img src="https://via.placeholder.com/400x300?text=Conteúdo+11" alt="Conteúdo 11">
+          <h3>Conteúdo 11</h3>
+          <p>Comparativo entre soluções convencionais e inteligentes.</p>
+        </div>
+        <div class="conteudo-item">
+          <img src="https://via.placeholder.com/400x300?text=Conteúdo+12" alt="Conteúdo 12">
+          <h3>Conteúdo 12</h3>
+          <p>Casos de sucesso e inovação no setor elétrico.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfólio (Preview) -->
+  <section class="portfolio">
+    <div class="container">
+      <h2>Portfólio</h2>
+      <div class="portfolio-grid">
+        <!-- Exemplo de 8 itens para visualização -->
+        <div class="portfolio-item">
+          <img src="https://via.placeholder.com/400x300?text=Projeto+1" alt="Projeto Residencial">
+          <h3>Projeto Residencial</h3>
+          <p>Projeto completo de modernização e eficiência energética.</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://via.placeholder.com/400x300?text=Projeto+2" alt="Projeto Comercial">
+          <h3>Projeto Comercial</h3>
+          <p>Instalação de infraestrutura elétrica para centros comerciais.</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://via.placeholder.com/400x300?text=Projeto+3" alt="Projeto Industrial">
+          <h3>Projeto Industrial</h3>
+          <p>Soluções robustas para ambientes industriais.</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://via.placeholder.com/400x300?text=Projeto+4" alt="Automação Residencial">
+          <h3>Automação Residencial</h3>
+          <p>Integração de sistemas inteligentes para casas conectadas.</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://via.placeholder.com/400x300?text=Projeto+5" alt="Energia Solar">
+          <h3>Energia Solar</h3>
+          <p>Projeto de energia solar para redução de custos e sustentabilidade.</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://via.placeholder.com/400x300?text=Projeto+6" alt="Iluminação LED">
+          <h3>Iluminação LED</h3>
+          <p>Modernização de fachadas comerciais com iluminação eficiente.</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://via.placeholder.com/400x300?text=Projeto+7" alt="Projeto Corporativo">
+          <h3>Projeto Corporativo</h3>
+          <p>Reestruturação completa de sistemas elétricos em escritórios.</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://via.placeholder.com/400x300?text=Projeto+8" alt="Infraestrutura para Eventos">
+          <h3>Eventos</h3>
+          <p>Projetos temporários para iluminação e som em grandes eventos.</p>
+        </div>
+      </div>
+      <a href="portfolio.html" class="btn">Ver Mais Projetos</a>
+    </div>
+  </section>
+
+  <!-- Vídeo Institucional -->
+  <section class="video-institucional">
+    <div class="container">
+      <h2>Vídeo Institucional</h2>
+      <video controls width="100%">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+      </video>
+      <p>Conheça mais sobre nossa história e nossos projetos através deste vídeo.</p>
+    </div>
+  </section>
+
+  <!-- Depoimentos e Contato Rápido -->
+  <section class="depoimentos">
+    <div class="container">
+      <h2>O que dizem nossos clientes</h2>
+      <div class="depoimento-item">
+        <p>"Serviço excelente! Recomendo a Jc Instalações para qualquer necessidade elétrica."</p>
+        <h4>- Cliente Satisfeito</h4>
+      </div>
+      <div class="depoimento-item">
+        <p>"Profissionais competentes e atenciosos. Resolvem problemas com rapidez e eficiência."</p>
+        <h4>- Empresário</h4>
+      </div>
+    </div>
+  </section>
+
+  <section class="contato-rapido">
+    <div class="container">
+      <h2>Entre em Contato</h2>
+      <p>
+        Fale conosco pelo WhatsApp:
+        <a href="https://wa.me/5511940694553" target="_blank">(11) 94069-4553</a>
+        ou envie um e-mail para:
+        <a href="mailto:contato@jcinstalacoes.com">contato@jcinstalacoes.com</a>
+      </p>
+      <a href="contato.html" class="btn">Solicite um Orçamento</a>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Jc Instalações. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/menu.js"></script>
+</body>
+
+</html>
