@@ -1,864 +1,130 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog | JC Instalações</title>
-  <link rel="stylesheet" href="assets/css/blog.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <header>
-    <h1>Blog JC Instalações</h1>
-    <nav>
-      <a href="index.html">Início</a>
-      <a href="servicos.html">Serviços</a>
-      <a href="sobre.html">Sobre</a>
-      <a href="blog.html" class="active">Blog</a>
-      <a href="contato.html">Contato</a>
-    </nav>
-  </header>
-
-  <main>
-    <section class="blog-container">
-      <!-- Posts 1 a 16 - Conteúdo original -->
-
-      <!-- Post 1 -->
-      <article class="post">
-        <h2>Como Economizar Energia em Casa</h2>
-        <img src="https://images.unsplash.com/photo-1581091012184-7b1033a7e7e4?auto=format&fit=crop&w=800&h=400"
-          alt="Economia de energia">
-        <p>Dicas práticas para reduzir o consumo de energia e economizar na conta de luz.</p>
-        <a href="https://www.aneel.gov.br/" target="_blank">Saiba mais na ANEEL</a>
-      </article>
-
-      <!-- Post 2 -->
-      <article class="post">
-        <h2>Cuidados com Instalações Elétricas Residenciais</h2>
-        <img src="https://images.unsplash.com/photo-1581091870622-27c88b870b27?auto=format&fit=crop&w=800&h=400"
-          alt="Instalações Elétricas">
-        <p>Conheça os principais cuidados para uma instalação elétrica segura em sua residência.</p>
-        <a href="https://www.abnt.org.br/" target="_blank">Normas da ABNT</a>
-      </article>
-
-      <!-- Post 3 -->
-      <article class="post">
-        <h2>Como Funciona a Energia Solar</h2>
-        <img src="https://images.unsplash.com/photo-1509395062183-67c5ad6faff9?auto=format&fit=crop&w=800&h=400"
-          alt="Energia Solar">
-        <p>Entenda o funcionamento dos sistemas fotovoltaicos e seus benefícios sustentáveis.</p>
-        <a href="https://www.portalsolar.com.br/" target="_blank">Portal Solar</a>
-      </article>
-
-      <!-- Post 4 -->
-      <article class="post">
-        <h2>Vantagens de Usar Lâmpadas de LED</h2>
-        <img src="https://images.unsplash.com/photo-1516117172878-fd2c41f4a759?auto=format&fit=crop&w=800&h=400"
-          alt="Lâmpadas LED">
-        <p>Descubra as vantagens econômicas e ecológicas da iluminação LED.</p>
-        <a href="https://www.osram.com/" target="_blank">Site da Osram</a>
-      </article>
-
-      <!-- Post 5 -->
-      <article class="post">
-        <h2>Dicas de Segurança Elétrica para Empresas</h2>
-        <img src="https://images.unsplash.com/photo-1578496781985-370ba9b90038?auto=format&fit=crop&w=800&h=400"
-          alt="Segurança Elétrica">
-        <p>Adote práticas seguras para proteger colaboradores e instalações em ambientes empresariais.</p>
-        <a href="https://www.nr10.com.br/" target="_blank">Saiba mais sobre NR10</a>
-      </article>
-
-      <!-- Post 6 -->
-      <article class="post">
-        <h2>Automação Residencial: Tecnologia e Conforto</h2>
-        <img src="https://images.unsplash.com/photo-1616627987555-2f697abc1099?auto=format&fit=crop&w=800&h=400"
-          alt="Automação Residencial">
-        <p>Transforme sua casa em um ambiente inteligente com sistemas de automação acessíveis.</p>
-        <a href="https://www.somautomacao.com.br/" target="_blank">Veja soluções de automação</a>
-      </article>
-
-      <!-- Post 7 (com vídeo) -->
-      <article class="post">
-        <h2>Instalação de Ventiladores de Teto</h2>
-        <img src="https://images.unsplash.com/photo-1605303863640-c4036f9b43a6?auto=format&fit=crop&w=800&h=400"
-          alt="Instalação de Ventilador">
-        <p>Aprenda passo a passo como instalar ventiladores de teto com segurança.</p>
-        <a href="https://www.youtube.com/watch?v=y8TdfpPftWw" target="_blank">Tutorial no YouTube</a>
-        <iframe width="400" height="225" src="https://www.youtube.com/embed/y8TdfpPftWw"
-          title="Instalação de Ventilador" frameborder="0" allowfullscreen></iframe>
-      </article>
-
-      <!-- Post 8 -->
-      <article class="post">
-        <h2>Diferença entre Tomadas 110V e 220V</h2>
-        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&h=400"
-          alt="Tomadas 110V e 220V">
-        <p>Saiba como identificar a voltagem adequada para seus aparelhos elétricos.</p>
-        <a href="https://pt.wikipedia.org/wiki/Tens%C3%A3o_el%C3%A9trica" target="_blank">Entenda a tensão elétrica</a>
-      </article>
-
-      <!-- Post 9 -->
-      <article class="post">
-        <h2>Manutenção Preventiva em Instalações</h2>
-        <img src="https://images.unsplash.com/photo-1603575448364-b2e7e59be5bc?auto=format&fit=crop&w=800&h=400"
-          alt="Manutenção Preventiva">
-        <p>Descubra a importância da manutenção preventiva para evitar problemas elétricos.</p>
-        <a href="https://www.sebrae.com.br/sites/PortalSebrae/artigos/como-fazer-manutencao-preventiva-em-instala%C3%A7%C3%B5es-eletricas"
-          target="_blank">Veja dicas no Sebrae</a>
-      </article>
-
-      <!-- Post 10 (com vídeo) -->
-      <article class="post">
-        <h2>Inovações Tecnológicas no Setor Elétrico</h2>
-        <img src="https://images.unsplash.com/photo-1610144992641-91215d63d6bb?auto=format&fit=crop&w=800&h=400"
-          alt="Inovações Tecnológicas">
-        <p>Explore as inovações que estão revolucionando o setor elétrico e aumentando a eficiência.</p>
-        <a href="https://www.eletrobras.com/" target="_blank">Leia mais na Eletrobras</a>
-        <iframe width="400" height="225" src="https://www.youtube.com/embed/3yWjn6vJ5ao" title="Inovações Tecnológicas"
-          frameborder="0" allowfullscreen></iframe>
-      </article>
-
-      <!-- Post 11 -->
-      <article class="post">
-        <h2>Como Escolher Materiais Elétricos de Qualidade</h2>
-        <img src="https://images.unsplash.com/photo-1603201667144-d74dbd5eb0e0?auto=format&fit=crop&w=800&h=400"
-          alt="Materiais Elétricos">
-        <p>Dicas para selecionar materiais e equipamentos que garantam uma instalação segura e durável.</p>
-        <a href="https://pt.wikipedia.org/wiki/Material_el%C3%A9trico" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 12 -->
-      <article class="post">
-        <h2>Normas de Segurança e Regulamentações Elétricas</h2>
-        <img src="https://images.unsplash.com/photo-1608778271412-66f9e058ec77?auto=format&fit=crop&w=800&h=400"
-          alt="Normas Elétricas">
-        <p>Entenda as principais normas para garantir segurança nas instalações elétricas.</p>
-        <a href="https://www.gov.br/trabalho/pt-br/assuntos/seguranca-e-saude-no-trabalho/nr10" target="_blank">Confira
-          a NR10</a>
-      </article>
-
-      <!-- Post 13 -->
-      <article class="post">
-        <h2>Benefícios da Iluminação LED</h2>
-        <img src="https://images.unsplash.com/photo-1531497865143-0b03e8c74597?auto=format&fit=crop&w=800&h=400"
-          alt="Iluminação LED">
-        <p>Descubra como as lâmpadas LED podem reduzir custos e melhorar a qualidade luminosa.</p>
-        <a href="https://www.lighting.philips.com.br/" target="_blank">Saiba mais sobre LED</a>
-      </article>
-
-      <!-- Post 14 -->
-      <article class="post">
-        <h2>Preparando sua Casa para uma Reforma Elétrica</h2>
-        <img src="https://images.unsplash.com/photo-1557682224-5b8590cd9ec5?auto=format&fit=crop&w=800&h=400"
-          alt="Reforma Elétrica">
-        <p>Dicas essenciais para se preparar adequadamente antes de iniciar uma reforma elétrica.</p>
-        <a href="https://www.homeadvisor.com/" target="_blank">Veja orientações</a>
-      </article>
-
-      <!-- Post 15 -->
-      <article class="post">
-        <h2>Curiosidades Sobre a Eletricidade</h2>
-        <img src="https://images.unsplash.com/photo-1564866657310-9ec09e798d5c?auto=format&fit=crop&w=800&h=400"
-          alt="Curiosidades Elétricas">
-        <p>Fatos interessantes e curiosidades que demonstram o impacto da eletricidade no nosso cotidiano.</p>
-        <a href="https://pt.wikipedia.org/wiki/Eletricidade" target="_blank">Descubra mais</a>
-      </article>
-
-      <!-- Post 16 -->
-      <article class="post">
-        <h2>Impacto da Energia Renovável no Futuro</h2>
-        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&h=400"
-          alt="Energia Renovável">
-        <p>Análise de como as fontes de energia renovável estão transformando o cenário energético global.</p>
-        <a href="https://www.iea.org/" target="_blank">Leia sobre energia renovável</a>
-      </article>
-
-      <!-- Posts 17 a 100 - Temas variados -->
-
-      <!-- Post 17 -->
-      <article class="post">
-        <h2>Dicas para Instalações Industriais</h2>
-        <img src="https://source.unsplash.com/800x400/?industrial,electric,17" alt="Instalações Industriais">
-        <p>Aprenda técnicas e cuidados específicos para instalações elétricas em ambientes industriais.</p>
-        <a href="https://example.com/industrial" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 18 -->
-      <article class="post">
-        <h2>Redução de Custos em Grandes Empresas</h2>
-        <img src="https://source.unsplash.com/800x400/?corporate,energy,18" alt="Custos Empresariais">
-        <p>Dicas e estratégias para otimizar o consumo de energia e reduzir custos operacionais.</p>
-        <a href="https://example.com/custos" target="_blank">Descubra como</a>
-      </article>
-
-      <!-- Post 19 -->
-      <article class="post">
-        <h2>Inovações em Sistemas de Iluminação</h2>
-        <img src="https://source.unsplash.com/800x400/?lighting,innovation,19" alt="Inovações em Iluminação">
-        <p>Explore as novas tecnologias que estão revolucionando os sistemas de iluminação modernos.</p>
-        <a href="https://example.com/inovacao-iluminacao" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 20 -->
-      <article class="post">
-        <h2>Instalação de Sistemas de Segurança Eletrônica</h2>
-        <img src="https://source.unsplash.com/800x400/?security,system,20" alt="Segurança Eletrônica">
-        <p>Aprenda como instalar sistemas de segurança eletrônica para proteger ambientes residenciais e comerciais.</p>
-        <a href="https://example.com/seguranca-eletronica" target="_blank">Mais informações</a>
-      </article>
-
-      <!-- Post 21 -->
-      <article class="post">
-        <h2>Benefícios da Energia Eólica em Residências</h2>
-        <img src="https://source.unsplash.com/800x400/?wind,energy,21" alt="Energia Eólica">
-        <p>Descubra como a energia eólica pode ser uma alternativa sustentável para residências.</p>
-        <a href="https://example.com/energia-eolica" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 22 -->
-      <article class="post">
-        <h2>Equipamentos de Proteção Individual em Elétrica</h2>
-        <img src="https://source.unsplash.com/800x400/?safety,equipment,22" alt="Equipamentos de Proteção">
-        <p>Conheça os EPIs essenciais para trabalhos com eletricidade e garanta sua segurança.</p>
-        <a href="https://example.com/epi-eletrica" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 23 -->
-      <article class="post">
-        <h2>Atualizações e Importância da NR10</h2>
-        <img src="https://source.unsplash.com/800x400/?nr10,security,23" alt="NR10">
-        <p>Entenda as atualizações da NR10 e como elas influenciam a segurança em instalações elétricas.</p>
-        <a href="https://example.com/nr10" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 24 -->
-      <article class="post">
-        <h2>Tendências em Automação Industrial</h2>
-        <img src="https://source.unsplash.com/800x400/?automation,industrial,24" alt="Automação Industrial">
-        <p>Descubra as tendências que estão revolucionando a automação no setor industrial.</p>
-        <a href="https://example.com/automacao-industrial" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 25 -->
-      <article class="post">
-        <h2>Soluções Sustentáveis para Empresas</h2>
-        <img src="https://source.unsplash.com/800x400/?sustainable,corporate,25" alt="Sustentabilidade Empresarial">
-        <p>Veja como implementar soluções sustentáveis que reduzem custos e promovem a sustentabilidade.</p>
-        <a href="https://example.com/sustentabilidade-empresarial" target="_blank">Confira</a>
-      </article>
-
-      <!-- Post 26 -->
-      <article class="post">
-        <h2>Fundamentos de Eletricidade para Iniciantes</h2>
-        <img src="https://source.unsplash.com/800x400/?electricity,basics,26" alt="Fundamentos da Eletricidade">
-        <p>Uma introdução prática aos conceitos básicos de eletricidade para os que estão começando.</p>
-        <a href="https://example.com/fundamentos-eletricidade" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 27 -->
-      <article class="post">
-        <h2>Projeto Elétrico Residencial: Dicas Essenciais</h2>
-        <img src="https://source.unsplash.com/800x400/?electrical,project,27" alt="Projeto Elétrico Residencial">
-        <p>Aprenda os passos essenciais para elaborar um projeto elétrico seguro para sua casa.</p>
-        <a href="https://example.com/projeto-eletrico-residencial" target="_blank">Veja dicas</a>
-      </article>
-
-      <!-- Post 28 -->
-      <article class="post">
-        <h2>Dimensionamento de Quadros de Distribuição</h2>
-        <img src="https://source.unsplash.com/800x400/?electrical,distribution,28" alt="Quadro de Distribuição">
-        <p>Saiba como dimensionar corretamente um quadro de distribuição para máxima eficiência.</p>
-        <a href="https://example.com/quadros-de-distribuicao" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 29 -->
-      <article class="post">
-        <h2>Instalação de Iluminação LED em Espaços Comerciais</h2>
-        <img src="https://source.unsplash.com/800x400/?commercial,led,29" alt="Iluminação Comercial">
-        <p>Descubra os benefícios e melhores práticas para implantar iluminação LED em ambientes comerciais.</p>
-        <a href="https://example.com/iluminacao-comercial" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 30 -->
-      <article class="post">
-        <h2>Segurança em Trabalhos de Altura com Eletricidade</h2>
-        <img src="https://source.unsplash.com/800x400/?high,voltage,30" alt="Trabalhos de Altura">
-        <p>Confira as principais medidas de segurança para trabalhos elétricos em altura.</p>
-        <a href="https://example.com/trabalhos-altura" target="_blank">Confira</a>
-      </article>
-
-      <!-- Post 31 -->
-      <article class="post">
-        <h2>Benefícios dos Sistemas Fotovoltaicos em Empresas</h2>
-        <img src="https://source.unsplash.com/800x400/?photovoltaic,corporate,31" alt="Sistemas Fotovoltaicos">
-        <p>Descubra como a energia solar pode diminuir custos e aumentar a sustentabilidade em empresas.</p>
-        <a href="https://example.com/fotovoltaicos-empresariais" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 32 -->
-      <article class="post">
-        <h2>Controle de Iluminação e Economia de Energia</h2>
-        <img src="https://source.unsplash.com/800x400/?smart,lighting,32" alt="Controle de Iluminação">
-        <p>Descubra como sistemas inteligentes de controle podem otimizar o consumo energético.</p>
-        <a href="https://example.com/controle-iluminacao" target="_blank">Veja detalhes</a>
-      </article>
-
-      <!-- Post 33 -->
-      <article class="post">
-        <h2>O Futuro da Mobilidade Elétrica</h2>
-        <img src="https://source.unsplash.com/800x400/?electric,car,33" alt="Mobilidade Elétrica">
-        <p>Explore as inovações que estão impulsionando o mercado de veículos elétricos.</p>
-        <a href="https://example.com/mobilidade-eletrica" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 34 -->
-      <article class="post">
-        <h2>Instalação de Sistemas de Segurança Eletrônica</h2>
-        <img src="https://source.unsplash.com/800x400/?security,camera,34" alt="Câmeras de Segurança">
-        <p>Aprenda a instalar e configurar sistemas de monitoramento para proteger seu imóvel.</p>
-        <a href="https://example.com/monitoramento" target="_blank">Saiba como</a>
-      </article>
-
-      <!-- Post 35 -->
-      <article class="post">
-        <h2>Boas Práticas na Instalação de Sistemas de Som</h2>
-        <img src="https://source.unsplash.com/800x400/?audio,system,35" alt="Sistemas de Som">
-        <p>Conheça dicas para instalar sistemas de som integrados à rede elétrica com eficiência.</p>
-        <a href="https://example.com/sistemas-de-som" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 36 -->
-      <article class="post">
-        <h2>Projeto Elétrico Residencial: Guia Prático</h2>
-        <img src="https://source.unsplash.com/800x400/?electrical,project,36" alt="Projeto Elétrico Residencial">
-        <p>Aprenda os passos essenciais para planejar um projeto elétrico residencial seguro e eficiente.</p>
-        <a href="https://example.com/projeto-eletrico-residencial" target="_blank">Veja o guia</a>
-      </article>
-
-      <!-- Post 37 -->
-      <article class="post">
-        <h2>Instalação de Sistemas Fotovoltaicos</h2>
-        <img src="https://source.unsplash.com/800x400/?solar,panel,37" alt="Painéis Solares">
-        <p>Descubra os passos para instalar sistemas fotovoltaicos tanto em ambientes residenciais quanto comerciais.
-        </p>
-        <a href="https://example.com/paineis-solares" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 38 -->
-      <article class="post">
-        <h2>Benefícios da Energia Eólica</h2>
-        <img src="https://source.unsplash.com/800x400/?wind,energy,38" alt="Energia Eólica">
-        <p>Explore como a energia eólica pode ser uma opção sustentável para reduzir custos energéticos.</p>
-        <a href="https://example.com/energia-eolica" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 39 -->
-      <article class="post">
-        <h2>Avanços no Armazenamento de Energia</h2>
-        <img src="https://source.unsplash.com/800x400/?battery,energy,39" alt="Armazenamento de Energia">
-        <p>Conheça as inovações em tecnologias de armazenamento que estão revolucionando o setor elétrico.</p>
-        <a href="https://example.com/armazenamento-de-energia" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 40 -->
-      <article class="post">
-        <h2>Sistemas de Backup para Instalações Elétricas</h2>
-        <img src="https://source.unsplash.com/800x400/?backup,energy,40" alt="Sistemas de Backup">
-        <p>Entenda como implementar sistemas de backup para manter a energia em situações emergenciais.</p>
-        <a href="https://example.com/sistemas-backup" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 41 -->
-      <article class="post">
-        <h2>A Importância do Aterramento Elétrico</h2>
-        <img src="https://source.unsplash.com/800x400/?grounding,electric,41" alt="Aterramento Elétrico">
-        <p>Descubra como o aterramento protege instalações contra surtos e choques elétricos.</p>
-        <a href="https://example.com/aterramento" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 42 -->
-      <article class="post">
-        <h2>Introdução à Eletricidade para Iniciantes</h2>
-        <img src="https://source.unsplash.com/800x400/?electricity,basics,42" alt="Fundamentos da Eletricidade">
-        <p>Uma introdução prática aos conceitos básicos da eletricidade para quem está começando.</p>
-        <a href="https://example.com/eletricidade-basica" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 43 -->
-      <article class="post">
-        <h2>A Evolução dos Sistemas de Iluminação</h2>
-        <img src="https://source.unsplash.com/800x400/?lighting,evolution,43" alt="Evolução da Iluminação">
-        <p>Explore como os sistemas de iluminação evoluíram para oferecer maior eficiência e economia.</p>
-        <a href="https://example.com/evolucao-iluminacao" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 44 -->
-      <article class="post">
-        <h2>Estratégias para Economia de Energia em Escritórios</h2>
-        <img src="https://source.unsplash.com/800x400/?office,energy,44" alt="Energia em Escritórios">
-        <p>Descubra métodos para otimizar o consumo de energia em ambientes corporativos.</p>
-        <a href="https://example.com/energia-escritorio" target="_blank">Confira dicas</a>
-      </article>
-
-      <!-- Post 45 -->
-      <article class="post">
-        <h2>Instalação de Sistemas de Iluminação Inteligente</h2>
-        <img src="https://source.unsplash.com/800x400/?smart,lighting,45" alt="Iluminação Inteligente">
-        <p>Saiba como modernizar sua iluminação com sistemas inteligentes que controlam o consumo.</p>
-        <a href="https://example.com/iluminacao-inteligente" target="_blank">Descubra mais</a>
-      </article>
-
-      <!-- Post 46 -->
-      <article class="post">
-        <h2>Como Manter a Eficiência em Quadros de Distribuição</h2>
-        <img src="https://source.unsplash.com/800x400/?electrical,panel,46" alt="Quadro de Distribuição">
-        <p>Dicas para manter o quadro elétrico em perfeito funcionamento e seguro.</p>
-        <a href="https://example.com/quadros-eficientes" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 47 -->
-      <article class="post">
-        <h2>Avanços em Sistemas de Monitoramento Elétrico</h2>
-        <img src="https://source.unsplash.com/800x400/?monitoring,electric,47" alt="Monitoramento Elétrico">
-        <p>Descubra as tecnologias que estão aprimorando o monitoramento das instalações elétricas.</p>
-        <a href="https://example.com/monitoramento-avancado" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 48 -->
-      <article class="post">
-        <h2>Instalação de Sistemas de Automação Comercial</h2>
-        <img src="https://source.unsplash.com/800x400/?automation,commercial,48" alt="Automação Comercial">
-        <p>Integre soluções de automação em ambientes comerciais para maior eficiência.</p>
-        <a href="https://example.com/automacao-comercial" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 49 -->
-      <article class="post">
-        <h2>Estratégias para Economia em Grandes Empresas</h2>
-        <img src="https://source.unsplash.com/800x400/?corporate,energy,49" alt="Economia em Grandes Empresas">
-        <p>Descubra como reduzir custos operacionais por meio de técnicas de economia de energia.</p>
-        <a href="https://example.com/economia-empresas" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 50 -->
-      <article class="post">
-        <h2>Novas Tecnologias em Armazenamento de Energia</h2>
-        <img src="https://source.unsplash.com/800x400/?battery,energy,50" alt="Armazenamento de Energia">
-        <p>Conheça as inovações que estão transformando o armazenamento e uso da energia elétrica.</p>
-        <a href="https://example.com/armazenamento-de-energia" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 51 -->
-      <article class="post">
-        <h2>Dicas para Projetos Elétricos Residenciais</h2>
-        <img src="https://source.unsplash.com/800x400/?electrical,project,51" alt="Projetos Elétricos Residenciais">
-        <p>Confira orientações essenciais para elaborar um projeto elétrico seguro e eficiente para sua casa.</p>
-        <a href="https://example.com/projetos-residenciais" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 52 -->
-      <article class="post">
-        <h2>Aplicações de Energia Híbrida</h2>
-        <img src="https://source.unsplash.com/800x400/?hybrid,energy,52" alt="Energia Híbrida">
-        <p>Descubra como combinar fontes de energia para criar sistemas híbridos mais eficientes.</p>
-        <a href="https://example.com/energia-hibrida" target="_blank">Confira</a>
-      </article>
-
-      <!-- Post 53 -->
-      <article class="post">
-        <h2>Instalação de Sistemas de Backup de Energia</h2>
-        <img src="https://source.unsplash.com/800x400/?backup,energy,53" alt="Sistemas de Backup">
-        <p>Aprenda a implementar sistemas de backup para garantir energia ininterrupta em emergências.</p>
-        <a href="https://example.com/sistemas-backup" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 54 -->
-      <article class="post">
-        <h2>A Evolução dos Sistemas de Distribuição Elétrica</h2>
-        <img src="https://source.unsplash.com/800x400/?distribution,grid,54" alt="Sistemas de Distribuição">
-        <p>Entenda como os sistemas de distribuição evoluíram para atender às crescentes demandas energéticas.</p>
-        <a href="https://example.com/distribuicao-eletrica" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 55 -->
-      <article class="post">
-        <h2>Benefícios do Monitoramento do Consumo de Energia</h2>
-        <img src="https://source.unsplash.com/800x400/?energy,monitor,55" alt="Monitoramento do Consumo">
-        <p>Descubra como monitorar o consumo de energia pode ajudar a reduzir desperdícios e custos.</p>
-        <a href="https://example.com/monitoramento-consumo" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 56 -->
-      <article class="post">
-        <h2>Instalação de Sistemas de Automação Comercial</h2>
-        <img src="https://source.unsplash.com/800x400/?automation,commercial,56" alt="Automação Comercial">
-        <p>Veja como a automação comercial pode otimizar processos e reduzir custos operacionais.</p>
-        <a href="https://example.com/automacao-comercial" target="_blank">Confira</a>
-      </article>
-
-      <!-- Post 57 -->
-      <article class="post">
-        <h2>Estratégias para Economia de Energia em Escritórios</h2>
-        <img src="https://source.unsplash.com/800x400/?office,energy,57" alt="Economia em Escritórios">
-        <p>Implementar técnicas para otimizar o consumo de energia no ambiente corporativo é fundamental.</p>
-        <a href="https://example.com/economia-escritorio" target="_blank">Descubra como</a>
-      </article>
-
-      <!-- Post 58 -->
-      <article class="post">
-        <h2>O Futuro da Mobilidade Elétrica</h2>
-        <img src="https://source.unsplash.com/800x400/?electric,car,58" alt="Mobilidade Elétrica">
-        <p>Explore as inovações que estão impulsionando o mercado de veículos elétricos e a mobilidade sustentável.</p>
-        <a href="https://example.com/mobilidade-eletrica" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 59 -->
-      <article class="post">
-        <h2>Soluções para Reduzir o Desperdício de Energia</h2>
-        <img src="https://source.unsplash.com/800x400/?energy,conservation,59" alt="Redução de Desperdício">
-        <p>Descubra práticas eficazes para diminuir o desperdício de energia e otimizar o consumo.</p>
-        <a href="https://example.com/reducao-desperdicio" target="_blank">Confira</a>
-      </article>
-
-      <!-- Post 60 -->
-      <article class="post">
-        <h2>Sistemas Inteligentes para Casas Conectadas</h2>
-        <img src="https://source.unsplash.com/800x400/?smart,home,60" alt="Casa Conectada">
-        <p>Descubra como a automação e a tecnologia estão transformando residências em casas inteligentes.</p>
-        <a href="https://example.com/casa-inteligente" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 61 -->
-      <article class="post">
-        <h2>Desafios na Transição para Energia Sustentável</h2>
-        <img src="https://source.unsplash.com/800x400/?sustainable,energy,61" alt="Energia Sustentável">
-        <p>Uma análise dos desafios e oportunidades na adoção de fontes de energia renovável.</p>
-        <a href="https://example.com/energia-sustentavel" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 62 -->
-      <article class="post">
-        <h2>Implementando um Sistema de Energia Híbrida</h2>
-        <img src="https://source.unsplash.com/800x400/?hybrid,energy,62" alt="Energia Híbrida">
-        <p>Descubra como combinar diferentes fontes de energia para criar um sistema híbrido eficiente.</p>
-        <a href="https://example.com/energia-hibrida" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 63 -->
-      <article class="post">
-        <h2>Instalação de Sistemas Fotovoltaicos Comerciais</h2>
-        <img src="https://source.unsplash.com/800x400/?photovoltaic,commercial,63" alt="Fotovoltaicos Comerciais">
-        <p>Saiba como implementar sistemas fotovoltaicos em ambientes empresariais para reduzir custos.</p>
-        <a href="https://example.com/fotovoltaicos-comerciais" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 64 -->
-      <article class="post">
-        <h2>Dicas para Projetos Elétricos Residenciais</h2>
-        <img src="https://source.unsplash.com/800x400/?electrical,project,64" alt="Projetos Elétricos">
-        <p>Confira orientações essenciais para desenvolver um projeto elétrico residencial seguro.</p>
-        <a href="https://example.com/projetos-residenciais" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 65 -->
-      <article class="post">
-        <h2>Técnicas de Controle para Economia de Energia</h2>
-        <img src="https://source.unsplash.com/800x400/?smart,lighting,65" alt="Controle de Energia">
-        <p>Descubra como implementar sistemas de controle que otimizam o consumo de energia.</p>
-        <a href="https://example.com/controle-energia" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 66 -->
-      <article class="post">
-        <h2>A Importância do Backup de Energia</h2>
-        <img src="https://source.unsplash.com/800x400/?backup,energy,66" alt="Backup de Energia">
-        <p>Saiba como sistemas de backup garantem energia ininterrupta durante emergências.</p>
-        <a href="https://example.com/backup-de-energia" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 67 -->
-      <article class="post">
-        <h2>O Papel dos Disjuntores na Proteção Elétrica</h2>
-        <img src="https://source.unsplash.com/800x400/?breaker,electric,67" alt="Disjuntores">
-        <p>Entenda como os disjuntores protegem as instalações contra sobrecargas e curtos-circuitos.</p>
-        <a href="https://example.com/disjuntores" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 68 -->
-      <article class="post">
-        <h2>Novas Tecnologias em Armazenamento de Energia</h2>
-        <img src="https://source.unsplash.com/800x400/?battery,energy,68" alt="Armazenamento de Energia">
-        <p>Conheça as inovações que estão revolucionando a forma de armazenar e utilizar a energia elétrica.</p>
-        <a href="https://example.com/armazenamento-de-energia" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 69 -->
-      <article class="post">
-        <h2>Estratégias para Reduzir o Desperdício de Energia</h2>
-        <img src="https://source.unsplash.com/800x400/?energy,conservation,69" alt="Redução de Desperdício">
-        <p>Descubra práticas eficazes para minimizar o desperdício e otimizar o consumo energético.</p>
-        <a href="https://example.com/reducao-desperdicio" target="_blank">Confira</a>
-      </article>
-
-      <!-- Post 70 -->
-      <article class="post">
-        <h2>Sistemas Inteligentes para Casas Conectadas</h2>
-        <img src="https://source.unsplash.com/800x400/?smart,home,70" alt="Casa Conectada">
-        <p>Veja como a automação integrada pode transformar sua residência em uma casa inteligente.</p>
-        <a href="https://example.com/casa-inteligente" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 71 -->
-      <article class="post">
-        <h2>Desafios na Transição para Energia Sustentável</h2>
-        <img src="https://source.unsplash.com/800x400/?sustainable,energy,71" alt="Energia Sustentável">
-        <p>Explore os desafios e oportunidades na adoção de fontes de energia renovável.</p>
-        <a href="https://example.com/energia-sustentavel" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 72 -->
-      <article class="post">
-        <h2>Implementando um Sistema de Energia Híbrida</h2>
-        <img src="https://source.unsplash.com/800x400/?hybrid,energy,72" alt="Energia Híbrida">
-        <p>Descubra como combinar diferentes fontes de energia para criar um sistema híbrido eficiente.</p>
-        <a href="https://example.com/energia-hibrida" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 73 -->
-      <article class="post">
-        <h2>Instalação de Sistemas Fotovoltaicos Comerciais</h2>
-        <img src="https://source.unsplash.com/800x400/?photovoltaic,commercial,73" alt="Fotovoltaicos Comerciais">
-        <p>Veja como aplicar sistemas fotovoltaicos em ambientes empresariais para reduzir custos.</p>
-        <a href="https://example.com/fotovoltaicos-comerciais" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 74 -->
-      <article class="post">
-        <h2>Dicas para Projetos Elétricos Residenciais</h2>
-        <img src="https://source.unsplash.com/800x400/?electrical,project,74" alt="Projetos Elétricos">
-        <p>Confira dicas e orientações para elaborar um projeto elétrico residencial seguro e eficiente.</p>
-        <a href="https://example.com/projetos-residenciais" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 75 -->
-      <article class="post">
-        <h2>Técnicas de Controle para Economia de Energia</h2>
-        <img src="https://source.unsplash.com/800x400/?smart,lighting,75" alt="Controle de Energia">
-        <p>Descubra como sistemas de controle podem otimizar o consumo e reduzir custos energéticos.</p>
-        <a href="https://example.com/controle-energia" target="_blank">Confira</a>
-      </article>
-
-      <!-- Post 76 -->
-      <article class="post">
-        <h2>A Importância dos Sistemas de Backup</h2>
-        <img src="https://source.unsplash.com/800x400/?backup,energy,76" alt="Backup de Energia">
-        <p>Saiba como implementar sistemas de backup para garantir energia ininterrupta em emergências.</p>
-        <a href="https://example.com/backup-de-energia" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 77 -->
-      <article class="post">
-        <h2>Avanços em Monitoramento Elétrico</h2>
-        <img src="https://source.unsplash.com/800x400/?monitoring,electric,77" alt="Monitoramento Elétrico">
-        <p>Conheça as novas tecnologias que aprimoram o monitoramento das instalações elétricas.</p>
-        <a href="https://example.com/monitoramento-avancado" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 78 -->
-      <article class="post">
-        <h2>Instalação de Sistemas de Automação Comercial</h2>
-        <img src="https://source.unsplash.com/800x400/?automation,commercial,78" alt="Automação Comercial">
-        <p>Descubra como a automação pode otimizar processos e aumentar a segurança em empresas.</p>
-        <a href="https://example.com/automacao-comercial" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 79 -->
-      <article class="post">
-        <h2>Estratégias para Economia de Energia em Escritórios</h2>
-        <img src="https://source.unsplash.com/800x400/?office,energy,79" alt="Economia em Escritórios">
-        <p>Conheça práticas eficazes para reduzir o consumo de energia em ambientes corporativos.</p>
-        <a href="https://example.com/energia-escritorio" target="_blank">Descubra como</a>
-      </article>
-
-      <!-- Post 80 -->
-      <article class="post">
-        <h2>Sistemas Inteligentes para Casas Conectadas</h2>
-        <img src="https://source.unsplash.com/800x400/?smart,home,80" alt="Casa Conectada">
-        <p>Descubra como a tecnologia inteligente está transformando residências em lares conectados.</p>
-        <a href="https://example.com/casa-inteligente" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 81 -->
-      <article class="post">
-        <h2>Desafios na Transição para Energia Sustentável</h2>
-        <img src="https://source.unsplash.com/800x400/?sustainable,energy,81" alt="Energia Sustentável">
-        <p>Explore os desafios e oportunidades na adoção de fontes de energia renovável.</p>
-        <a href="https://example.com/energia-sustentavel" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 82 -->
-      <article class="post">
-        <h2>Implementando um Sistema de Energia Híbrida</h2>
-        <img src="https://source.unsplash.com/800x400/?hybrid,energy,82" alt="Energia Híbrida">
-        <p>Descubra como combinar diversas fontes de energia para criar um sistema híbrido eficiente.</p>
-        <a href="https://example.com/energia-hibrida" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 83 -->
-      <article class="post">
-        <h2>Instalação de Sistemas Fotovoltaicos Comerciais</h2>
-        <img src="https://source.unsplash.com/800x400/?photovoltaic,commercial,83" alt="Fotovoltaicos Comerciais">
-        <p>Saiba como implementar sistemas fotovoltaicos em empresas para otimizar custos e gerar sustentabilidade.</p>
-        <a href="https://example.com/fotovoltaicos-comerciais" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 84 -->
-      <article class="post">
-        <h2>Dicas para Projetos Elétricos Residenciais</h2>
-        <img src="https://source.unsplash.com/800x400/?electrical,project,84" alt="Projetos Elétricos">
-        <p>Confira orientações e dicas para criar um projeto elétrico residencial seguro e eficiente.</p>
-        <a href="https://example.com/projeto-residencial" target="_blank">Veja dicas</a>
-      </article>
-
-      <!-- Post 85 -->
-      <article class="post">
-        <h2>Técnicas de Controle para Economia Energética</h2>
-        <img src="https://source.unsplash.com/800x400/?smart,lighting,85" alt="Controle Energético">
-        <p>Descubra como sistemas de controle podem otimizar o uso de energia e reduzir custos.</p>
-        <a href="https://example.com/controle-energia" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 86 -->
-      <article class="post">
-        <h2>A Importância do Backup de Energia</h2>
-        <img src="https://source.unsplash.com/800x400/?backup,energy,86" alt="Backup de Energia">
-        <p>Entenda como sistemas de backup ajudam a manter a energia durante falhas e emergências.</p>
-        <a href="https://example.com/backup-de-energia" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 87 -->
-      <article class="post">
-        <h2>Avanços em Monitoramento Elétrico</h2>
-        <img src="https://source.unsplash.com/800x400/?monitoring,electric,87" alt="Monitoramento Elétrico">
-        <p>Conheça as novas tecnologias que aprimoram o monitoramento das instalações elétricas.</p>
-        <a href="https://example.com/monitoramento-avancado" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 88 -->
-      <article class="post">
-        <h2>Instalação de Sistemas de Automação Comercial</h2>
-        <img src="https://source.unsplash.com/800x400/?automation,commercial,88" alt="Automação Comercial">
-        <p>Descubra como a automação pode otimizar processos e aumentar a eficiência em ambientes empresariais.</p>
-        <a href="https://example.com/automacao-comercial" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 89 -->
-      <article class="post">
-        <h2>Estratégias para Economia de Energia em Escritórios</h2>
-        <img src="https://source.unsplash.com/800x400/?office,energy,89" alt="Energia em Escritórios">
-        <p>Práticas que ajudam a reduzir o consumo energético em ambientes corporativos.</p>
-        <a href="https://example.com/energia-escritorio" target="_blank">Veja dicas</a>
-      </article>
-
-      <!-- Post 90 -->
-      <article class="post">
-        <h2>Sistemas Inteligentes para Casas Conectadas</h2>
-        <img src="https://source.unsplash.com/800x400/?smart,home,90" alt="Casa Conectada">
-        <p>Descubra como a tecnologia pode transformar sua residência em uma casa conectada e inteligente.</p>
-        <a href="https://example.com/casa-inteligente" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 91 -->
-      <article class="post">
-        <h2>Desafios na Transição para Energia Sustentável</h2>
-        <img src="https://source.unsplash.com/800x400/?sustainable,energy,91" alt="Energia Sustentável">
-        <p>Explore os desafios e as oportunidades na migração para fontes de energia renovável.</p>
-        <a href="https://example.com/energia-sustentavel" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 92 -->
-      <article class="post">
-        <h2>Implementando um Sistema de Energia Híbrida</h2>
-        <img src="https://source.unsplash.com/800x400/?hybrid,energy,92" alt="Energia Híbrida">
-        <p>Descubra como combinar diferentes fontes de energia para criar um sistema híbrido eficiente.</p>
-        <a href="https://example.com/energia-hibrida" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 93 -->
-      <article class="post">
-        <h2>Instalação de Sistemas Fotovoltaicos Comerciais</h2>
-        <img src="https://source.unsplash.com/800x400/?photovoltaic,commercial,93" alt="Fotovoltaicos Comerciais">
-        <p>Aprenda como implementar sistemas fotovoltaicos em ambientes empresariais para reduzir custos.</p>
-        <a href="https://example.com/fotovoltaicos-comerciais" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 94 -->
-      <article class="post">
-        <h2>Dicas para Projetos Elétricos Residenciais</h2>
-        <img src="https://source.unsplash.com/800x400/?electrical,project,94" alt="Projetos Elétricos">
-        <p>Confira orientações essenciais para desenvolver um projeto elétrico residencial seguro e eficiente.</p>
-        <a href="https://example.com/projeto-residencial" target="_blank">Veja dicas</a>
-      </article>
-
-      <!-- Post 95 -->
-      <article class="post">
-        <h2>Técnicas de Controle para Economia Energética</h2>
-        <img src="https://source.unsplash.com/800x400/?smart,lighting,95" alt="Controle Energético">
-        <p>Descubra como otimizar o consumo de energia com sistemas de controle avançados.</p>
-        <a href="https://example.com/controle-energia" target="_blank">Saiba mais</a>
-      </article>
-
-      <!-- Post 96 -->
-      <article class="post">
-        <h2>A Importância do Backup de Energia</h2>
-        <img src="https://source.unsplash.com/800x400/?backup,energy,96" alt="Backup de Energia">
-        <p>Saiba como os sistemas de backup podem manter suas operações funcionando durante quedas de energia.</p>
-        <a href="https://example.com/backup-de-energia" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 97 -->
-      <article class="post">
-        <h2>Inovações em Monitoramento Elétrico</h2>
-        <img src="https://source.unsplash.com/800x400/?monitoring,electric,97" alt="Monitoramento Elétrico">
-        <p>Descubra as novas tecnologias que estão aprimorando o monitoramento das instalações elétricas.</p>
-        <a href="https://example.com/monitoramento-avancado" target="_blank">Veja mais</a>
-      </article>
-
-      <!-- Post 98 -->
-      <article class="post">
-        <h2>Estratégias para Economia de Energia em Escritórios</h2>
-        <img src="https://source.unsplash.com/800x400/?office,energy,98" alt="Energia em Escritórios">
-        <p>Conheça práticas eficazes para reduzir o consumo de energia em ambientes corporativos.</p>
-        <a href="https://example.com/energia-escritorio" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 99 -->
-      <article class="post">
-        <h2>Avanços na Engenharia Elétrica para o Futuro</h2>
-        <img src="https://source.unsplash.com/800x400/?future,electric,99" alt="Engenharia do Futuro">
-        <p>Explore as inovações e tendências que estão moldando o futuro da engenharia elétrica.</p>
-        <a href="https://example.com/engenharia-futuro" target="_blank">Leia mais</a>
-      </article>
-
-      <!-- Post 100 -->
-      <article class="post">
-        <h2>O Impacto dos Sistemas Inteligentes na Vida Moderna</h2>
-        <img src="https://source.unsplash.com/800x400/?smart,technology,100" alt="Sistemas Inteligentes">
-        <p>Uma análise de como os sistemas inteligentes estão revolucionando a eficiência e o conforto no cotidiano.</p>
-        <a href="https://example.com/sistemas-inteligentes" target="_blank">Saiba mais</a>
-      </article>
-
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 JC Instalações - Todos os direitos reservados.</p>
-  </footer>
-
-</body>
-
-</html>
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo e Tipografia */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Cabeçalho fixo */
+header {
+  background-color: #003366;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #ffcc00;
+}
+
+/* Espaço para o conteúdo (compensando o header fixo) */
+main {
+  padding: 120px 20px 20px;
+}
+
+/* Layout dos posts em grade */
+.blog-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Estilo dos posts (cards) */
+.post {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.post img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.post p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.post a {
+  display: inline-block;
+  text-decoration: none;
+  color: #003366;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.post a:hover {
+  color: #ff6600;
+}
+
+/* Vídeos incorporados responsivos */
+.post iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border: none;
+  margin-top: 10px;
+}
+
+/* Rodapé */
+footer {
+  background-color: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  nav a {
+    margin: 0 10px;
+    font-size: 0.9rem;
+  }
+  .post h2 {
+    font-size: 1.3rem;
+  }
+}
